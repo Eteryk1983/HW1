@@ -75,25 +75,60 @@ justify-content: space-around;
     background-size: cover;
     height: 600px;
 }
-.game_item{
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
-border-radius: 16px;
 
-
-
-}
-
-game_text{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 32px;
+.game-section{
+    border: 3px solid #1c2dac;
+    height: 556px;
     display: flex;
-    align-items: center;
-    
-    color: #FFFFFF;
-}
+    flex-grow: 3;
+    flex-direction: row;
+    box-sizing: border-box;
 
-   
+}
+   .game-list {
+    border: 3px solid #1c2dac;
+    height: 300px;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+gap: 32px;
+margin-top: 128px;
+margin-left: 120px;
+   }
+
+   .game-list_link--1 {
+    background-image: url(img/Rectangle\ 6game1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #1c2dac;
+    height: 300px;
+    display: block;
+    width: 379px;
+
+   }
+   .game-list_link--2 {
+    background-image: url(img/Rectangle\ 7game2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #1c2dac;
+    height: 300px;
+    display: block;
+    width: 379px;
+   }
+    .game-list_link--3 {
+        background-image: url(img/Rectangle\ 8game3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid #1c2dac;
+        height: 300px;
+        display: block;
+        width: 379px;
+    }
+
+
+ 
